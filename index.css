@@ -50,7 +50,16 @@ h2 {
 
 .card-inner {
     background: #111d4a;
-    flex-grow: 1;
     height: 70%;
     padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.card-inner_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.
