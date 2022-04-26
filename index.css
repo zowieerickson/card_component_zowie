@@ -67,12 +67,15 @@ h2 {
 
 .card-img {
     object-fit: cover;
-    height: 30%;
+    flex-basis: 30%;
+    /* Have to do min-height & min-width as 0 because of Chrome */
+    min-width: 0;
+    min-height: 0;
 }
 
 .card-inner {
     background: #111d4a;
-    height: 70%;
+    flex-basis: 70%;
     padding: 1.8em;
     display: flex;
     flex-direction: column;
@@ -118,13 +121,5 @@ h2 {
 
     .card-img, .card-inner {
         height: auto
-    }
-
-    .card-img {
-        width: 30%;
-    }
-
-    .card-inner {
-        width: 70%;
     }
 }
