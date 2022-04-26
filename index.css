@@ -51,6 +51,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
 }
 
 .card-title,
