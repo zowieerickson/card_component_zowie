@@ -120,6 +120,6 @@ h2 {
     }
 
     .card-img, .card-inner {
-        height: auto
+        height: auto;
     }
 }
